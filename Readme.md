@@ -49,13 +49,6 @@ This project is an end-to-end MLOps pipeline for detecting fraudulent payment tr
 
 ---
 
-## Author
-**Kajal Patel**
-
-For questions or contributions, please open an issue or pull request.
-
----
-
 ## **2. Tech Stack**
 
 ### **Languages**
@@ -485,4 +478,11 @@ The fraud detection model is built using a **custom pipeline** with multiple sta
 * Deploy **cloud-native** on AWS/GCP/Azure (EKS/GKE/AKS)
 * Implement **real-time streaming predictions** with Kafka
 * Add **explainability (SHAP/LIME)** for fraud predictions
+---
+
+## Author
+**Kajal Patel**
+
+For questions or contributions, please open an issue or pull request.
+
 ---
