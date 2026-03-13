@@ -1,63 +1,58 @@
 
-# **Fraud Detection MLOps Pipeline**
 
-The **Fraud Detection MLOps Pipeline** is an end-to-end system designed to identify potentially fraudulent financial transactions with high accuracy and scalability. This project integrates **Machine Learning (ML) with MLOps principles** to ensure robust experimentation, deployment, and real-time monitoring of fraud detection models.
+# Payment Fraud Detection MLOps
 
-<!-- Tech Stack Badges -->
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange?logo=mlflow)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue?logo=kubernetes)
-![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-orange?logo=prometheus)
-![Grafana](https://img.shields.io/badge/Grafana-Dashboards-yellow?logo=grafana)
+This project is an end-to-end MLOps pipeline for detecting fraudulent payment transactions. It covers data processing, model training, deployment, and monitoring using modern tools.
 
-<!-- Project Info Badges -->
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Issues](https://img.shields.io/github/issues/MohitGupta0123/Fraud_Detection_MLOps)
-![Last Commit](https://img.shields.io/github/last-commit/MohitGupta0123/Fraud_Detection_MLOps)
-![Repo Size](https://img.shields.io/github/repo-size/MohitGupta0123/Fraud_Detection_MLOps)
-<!-- ![Stars](https://img.shields.io/github/stars/MohitGupta0123/Fraud_Detection_MLOps)
-![Forks](https://img.shields.io/github/forks/MohitGupta0123/Fraud_Detection_MLOps) -->
+## Features
+- Real-time fraud prediction (API and UI)
+- MLflow experiment tracking
+- Docker & Kubernetes deployment
+- Monitoring with Prometheus & Grafana
 
-## DEMO LINK - [LINK](https://frauddetectionmlops.streamlit.app/)
+## Quick Start
+1. Clone the repo and install requirements
+2. Run `streamlit run app.py` for the UI
+3. Run FastAPI with `uvicorn main:app --reload` in the API folder
+
+## Project Images & Architecture
+### MLOps Architecture
+![MLOps Architecture](Images/MLOps_Architecture/image.png)
+
+### Model Architecture
+![Model Architecture](Images/Model_Architecture/image.png)
+
+## Screenshots
+### MLFlow
+![MLFlow Experiment 1](Images/MLFlow/1.png)
+![MLFlow Experiment 2](Images/MLFlow/2.png)
+
+### Docker
+![Docker Setup](Images/Docker/Docker1.png)
+![Docker Running](Images/Docker/Docker2.png)
+![Docker Hub](Images/Docker/Dockerhub.png)
+
+### FastAPI
+![FastAPI Endpoint 1](Images/FastAPI/1.png)
+![FastAPI Endpoint 2](Images/FastAPI/2.png)
+![FastAPI Endpoint 3](Images/FastAPI/3.png)
+
+### Prometheus
+![Prometheus Monitoring](Images/Prometheus/1.png)
+
+### Grafana
+![Grafana Dashboard 1](Images/Grafana/1.png)
+![Grafana Dashboard 2](Images/Grafana/2.png)
+![Grafana Dashboard 3](Images/Grafana/3.png)
+![Grafana Dashboard 4](Images/Grafana/4.png)
+![Grafana Dashboard 5](Images/Grafana/5.png)
 
 ---
 
-## **Table of Contents**
+## Author
+**Kajal Patel**
 
-1. [Project Overview](#1-project-overview)
-2. [Tech Stack](#2-tech-stack)
-3. [Architecture Diagrams](#3-architecture-diagrams)
-4. [Features](#4-features)
-5. [Directory Structure](#5-directory-structure)
-6. [Setup Instructions](#6-setup-instructions)
-7. [Running the Streamlit App](#7-running-the-streamlit-app)
-8. [Running the FastAPI Service](#8-running-the-fastapi-service)
-9. [Experiment Tracking with MLflow](#9-experiment-tracking-with-mlflow)
-10. [Monitoring with Prometheus & Grafana](#10-monitoring-with-prometheus--grafana)
-11. [Model Details](#11-model-details)
-12. [Results & Metrics](#12-results--metrics)
-13. [Screenshots](#13-screenshots)
-14. [Future Work](#14-future-work)
-15. [Author / Contact](#15-author--contact)
-
-## **1. Project Overview**
-
-### **Objectives**
-
-* This project implements a **complete MLOps pipeline** for **fraud detection** using transactional data. It covers the **entire ML lifecycle**
-* Build a modular **FraudPipeline** capable of feature engineering, preprocessing, resampling (SMOTE), and threshold tuning.
-* Track experiments using **MLflow** for reproducibility and comparative analysis.
-* Deploy the model using **FastAPI** for REST API services and **Streamlit** for an interactive UI.
-* Containerize and orchestrate services using **Docker** and **Kubernetes (Minikube)**.
-* Monitor system health and metrics using **Prometheus** and **Grafana** dashboards.
-
-### **Goal** 
-
-Detect fraudulent transactions in real-time with **high recall** while minimizing false positives.
+For questions or contributions, please open an issue or pull request.
 
 ---
 
@@ -490,15 +485,4 @@ The fraud detection model is built using a **custom pipeline** with multiple sta
 * Deploy **cloud-native** on AWS/GCP/Azure (EKS/GKE/AKS)
 * Implement **real-time streaming predictions** with Kafka
 * Add **explainability (SHAP/LIME)** for fraud predictions
-
 ---
-
-## **15. Author / Contact**
-
-**Author:** Mohit Gupta
-
-* [Mail](mailto:mgmohit1111@gmail.com)
-* [GitHub](https://github.com/MohitGupta0123)
-* [LinkedIn](https://www.linkedin.com/in/mohitgupta012/)
-
-Feel free to connect for feedback, contributions, or collaborations.
